@@ -6,6 +6,12 @@ $password = "aqs2fmOLpIgxrZhr";
 // Create connection
 $conn = new mysqli("localhost","root","","data");
 
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
 $result = $conn->query("SELECT * FROM TABLE1");
 ?>
 <!doctype html>
