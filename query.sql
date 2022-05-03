@@ -1,9 +1,5 @@
 CREATE TABLE IF NOT EXISTS `cp476tp`.`nbastats` (`name` varchar(24), `team` varchar(3), `pos` varchar(3), `age` decimal(4,2), `gp` int(2), `mpg` decimal(3,1), `usg_per` decimal(3,1), `fta` int(3), `ft_per` decimal(4,3), `2pa` int(4), `2p_per` decimal(4,3), `3pa` int(3), `3p_per` decimal(4,3), `ppg` decimal(3,1), `rpg` decimal(3,1), `apg` decimal(3,1), `spg` decimal(3,2), `bpg` decimal(3,2), `topg` decimal(3,2)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; 
 
-
-
-
-
 INSERT INTO `cp476tp`.`nbastats` (`name`, `team`, `pos`, `age`, `gp`, `mpg`, `usg_per`, `fta`, `ft_per`, `2pa`, `2p_per`, `3pa`, `3p_per`, `ppg`, `rpg`, `apg`, `spg`, `bpg`, `topg`) VALUES ('Precious Achiuwa', 'Tor', 'F', 22.47, 56, 23.1, 17.9, 100, 0.57, 354, 0.449, 83, 0.349, 8.3, 6.8, 1.1, 0.52, 0.55, 1.07),
  ('Steven Adams', 'Mem', 'C', 28.64, 63, 26.5, 12.2, 172, 0.547, 320, 0.556, 0, 0, 7.1, 9.8, 3.3, 0.84, 0.75, 1.57),
  ('Bam Adebayo', 'Mia', 'C-F', 24.64, 42, 33.2, 25.1, 242, 0.748, 562, 0.541, 5, 0, 18.8, 10.2, 3.6, 1.48, 0.83, 2.74),
