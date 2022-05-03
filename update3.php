@@ -19,7 +19,7 @@ $spg = $_POST['spg'];
 $bpg = $_POST['bpg'];
 $topg = $_POST['topg'];
 
-$conn = new mysqli("localhost","root","passpass","data");
+$conn = new mysqli("localhost","root","","data");
 
 $sql = $conn->prepare("UPDATE cp476tp SET TEAM=?, POS=?, AGE=?, GP=?, MPG=?, USGP=?, 
 FTA=?, FTP=?, 2PA=?, 2PP=?, 3PA=?, 3PP=?, PPG=?, RPG=?, APG=?, SPG=?, BPG=?, TOPG=? WHERE NAME=?");
