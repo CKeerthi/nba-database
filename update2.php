@@ -1,6 +1,6 @@
 <?php
 $name = $_POST['name'];
-$conn = new mysqli("localhost","root","passpass","data"); //mysqli connect
+$conn = new mysqli("localhost","root","","data"); //mysqli connect
 $result = $conn->prepare("SELECT * FROM cp476tp WHERE NAME=?");
 $result->bind_param("s",$name);
 $result->execute();
