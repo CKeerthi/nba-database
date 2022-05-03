@@ -1,2 +1,3 @@
 # nba-database
-Create NBA server that shows, updates, and removes player statistics
+The player statistics were stored in a MySQL database, Apache HTTP Web Server and PHP is used to connect the MySQL database and Apache Webserver. 
+
